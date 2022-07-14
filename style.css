@@ -5,11 +5,9 @@
 }
  
 body {
-    margin: 80px;
-    font-size: 36px;
-    height: 100vh;
+    
     font-family: 'Montserrat', sans-serif;
-    background-color:
+    
 }
 
 nav {
@@ -25,3 +23,43 @@ nav {
     max-width: 1200px;
     
 }
+
+.burger-icon {
+    display: block;
+    margin-left: auto;
+    padding: 0 30px;
+    line-height: 60px;
+    font-size: 30px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.nav-items {
+    display: none;
+}
+
+
+
+@media (min-width: 768px) {
+    .burger-icon {
+        display:none;
+    }
+    .nav-items{
+        display:block;
+    }
+
+    .nav-items a {
+        padding: 0 30px;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-weight: bold;
+        color: #333;
+        transition: color .3s;
+    }
+    
+    .nav-items a:hover {
+        color:royalblue;
+    }
+}
+
