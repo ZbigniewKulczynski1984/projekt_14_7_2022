@@ -11,3 +11,10 @@ body {
     font-family: 'Montserrat', sans-serif;
     background-color:
 }
+
+nav {
+    height: 60px;
+    line-height: 60px;
+    background-color: #fff;
+    text-align: center;
+}
