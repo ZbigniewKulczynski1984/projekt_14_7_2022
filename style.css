@@ -75,6 +75,21 @@ nav {
     color: #09f;
 }
 
+.section-title {
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    text-align: center;
+
+}
+
+main {
+    margin: 60px 0;
+}
+
+.about-us-info {
+    margin-bottom: 10px;
+}
+
 
 
 @media (min-width: 768px) {
