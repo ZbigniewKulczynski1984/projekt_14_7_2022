@@ -90,6 +90,21 @@ main {
     margin-bottom: 10px;
 }
 
+.products {
+    margin: 60px, auto;
+}
+.product h3{
+    text-transform: uppercase;
+}
+
+.first-product {
+    position: relative;    
+    height: 300px;
+    background-image: url('img/cube-small.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
 
 
 @media (min-width: 768px) {
