@@ -4,8 +4,11 @@
     padding: 0;
 }
  
+html {
+    scroll-behavior: smooth;
+}
+
 body {
-    
     font-family: 'Montserrat', sans-serif;
     
 }
@@ -18,10 +21,13 @@ body {
 }
 
 nav {
+    position: sticky;
+    top: 0;
     height: 60px;
     line-height: 60px;
-    background-color: #fff;
+    background-color: #ddd;
     text-align: center;
+    z-index: 10;
 }
 
 
@@ -83,6 +89,10 @@ nav {
 
 }
 
+section {
+    scroll-margin-top: 70px;
+}
+
 main {
     margin: 60px 0;
 }
@@ -105,8 +115,13 @@ main {
     text-align: center;
 }
 
+.product:hover h3 {
+    transform:scale(1.6)
+}
+
 .product h3{
     text-transform: uppercase;
+    transition: transform .3s;
 }
 
 .first-product {
